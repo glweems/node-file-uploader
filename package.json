@@ -1,0 +1,40 @@
+{
+  "name": "node-upload-files",
+  "version": "0.0.1",
+  "description": "local node server for uploading files",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.16.4",
+    "express-fileupload": "^1.1.6",
+    "morgan": "^1.9.1",
+    "server": "^1.0.21"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "nodemon": "^1.18.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glweems/node-upload-files.git"
+  },
+  "keywords": [
+    "node",
+    "uploads",
+    "file",
+    "uploader"
+  ],
+  "author": "Garrett Weems <gwgraphicdesign@gmail.com> (https://glweems.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/glweems/node-upload-files/issues"
+  },
+  "homepage": "https://github.com/glweems/node-upload-files#readme"
+}
