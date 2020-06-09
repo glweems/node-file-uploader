@@ -18,7 +18,7 @@
     "server": "^1.0.21"
   },
   "devDependencies": {
-    "eslint": "^6.7.2",
+    "eslint": "^7.2.0",
     "nodemon": "^1.18.11"
   },
   "repository": {
